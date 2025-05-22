@@ -10,19 +10,19 @@ const CustomHead = ({ title }: CustomHeadProps) => {
       <title>{title}</title>
       <meta
         name="description"
-        content="Jarius Allen is an avid full stack web developer building websites and applications you'd love to use"
+        content="Jarius Allen - Software Engineer specializing in modern web applications, e-commerce platforms, and enterprise solutions"
       />
       <meta
         name="keywords"
-        content="jarius allen, jarius, allen, web developer portfolio, jarius web developer, jarius developer, mern stack, jarius allen portfolio, vscode-portfolio"
+        content="jarius allen, software engineer, react, next.js, node.js, three.js, ruby on rails, shopify, wordpress, e-commerce development, enterprise solutions"
       />
       <meta property="og:title" content="Jarius Allen's Portfolio" />
       <meta
         property="og:description"
-        content="A full-stack developer building websites that you'd like to use."
+        content="Experienced software engineer specializing in e-commerce platforms, enterprise solutions, and modern web development with React, Next.js, Three.js, and more."
       />
-      <meta property="og:image" content="https://imgur.com/4zi5KkQ.png" />
-      <meta property="og:url" content="https://vscode-portfolio.vercel.app" />
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://jarius-allen.vercel.app" />
       <meta name="twitter:card" content="summary_large_image" />
     </Head>
   );
