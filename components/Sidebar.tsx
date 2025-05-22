@@ -1,5 +1,5 @@
-import Link from 'next/link';
-import { useRouter } from 'next/router';
+import Link from "next/link";
+import { useRouter } from "next/router";
 import {
   VscAccount,
   VscSettings,
@@ -7,22 +7,20 @@ import {
   VscGithubAlt,
   VscCode,
   VscFiles,
-  VscEdit,
-} from 'react-icons/vsc';
+} from "react-icons/vsc";
 
-import styles from '@/styles/Sidebar.module.css';
+import styles from "@/styles/Sidebar.module.css";
 
 const sidebarTopItems = [
-  { Icon: VscFiles, path: '/' },
-  { Icon: VscGithubAlt, path: '/github' },
-  { Icon: VscCode, path: '/projects' },
-  { Icon: VscEdit, path: '/articles' },
-  { Icon: VscMail, path: '/contact' },
+  { Icon: VscFiles, path: "/" },
+  { Icon: VscGithubAlt, path: "/github" },
+  { Icon: VscCode, path: "/projects" },
+  { Icon: VscMail, path: "/contact" },
 ];
 
 const sidebarBottomItems = [
-  { Icon: VscAccount, path: '/about' },
-  { Icon: VscSettings, path: '/settings' },
+  { Icon: VscAccount, path: "/about" },
+  { Icon: VscSettings, path: "/settings" },
 ];
 
 const Sidebar = () => {
@@ -42,8 +40,8 @@ const Sidebar = () => {
                 size={16}
                 fill={
                   router.pathname === path
-                    ? 'rgb(225, 228, 232)'
-                    : 'rgb(106, 115, 125)'
+                    ? "rgb(225, 228, 232)"
+                    : "rgb(106, 115, 125)"
                 }
                 className={styles.icon}
               />
@@ -58,8 +56,8 @@ const Sidebar = () => {
               <Icon
                 fill={
                   router.pathname === path
-                    ? 'rgb(225, 228, 232)'
-                    : 'rgb(106, 115, 125)'
+                    ? "rgb(225, 228, 232)"
+                    : "rgb(106, 115, 125)"
                 }
                 className={styles.icon}
               />
