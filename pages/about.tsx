@@ -42,8 +42,8 @@ const AboutPage = () => {
             <p className={styles.paragraph}>
               My technical stack includes React, Next.js, Node.js, Ruby on Rails, and Three.js.
               I specialize in building full-stack applications using modern JavaScript frameworks
-              and have extensive experience with e-commerce solutions like Solidus. I&apos;ve also
-              implemented AI-driven solutions and real-time applications using Node.js backends.
+              and have extensive experience with e-commerce solutions like Solidus, Shopify, and WordPress.
+              I&apos;ve also implemented AI-driven solutions and real-time applications using Node.js backends.
             </p>
           </section>
 
