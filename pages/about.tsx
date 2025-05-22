@@ -12,7 +12,7 @@ const AboutPage = () => {
             <p className={styles.paragraph}>
               Hey! I&apos;m a software engineer with extensive experience in building modern web applications
               and e-commerce platforms. I specialize in creating robust, scalable solutions using a diverse
-              tech stack including React, Ruby on Rails, and Three.js.
+              tech stack including React, Ruby on Rails, PHP, and Three.js.
             </p>
             <p className={styles.paragraph}>
               My expertise spans from developing enterprise-level applications to creating immersive
