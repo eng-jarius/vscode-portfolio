@@ -1,17 +1,18 @@
-import styles from '@/styles/AboutPage.module.css';
+import styles from "@/styles/AboutPage.module.css";
 
 const AboutPage = () => {
   return (
     <div className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Nitin Ranganath</h1>
+        <h1 className={styles.title}>Jarius Allen</h1>
         <div className={styles.subtitle}>Software Engineer</div>
 
         <div className={styles.aboutContent}>
           <section className={styles.section}>
             <p className={styles.paragraph}>
-              Hey! I&apos;m a software engineer from Mumbai, India. I primarily
-              work with JavaScript / TypeScript and the React ecosystem.
+              Hey! I&apos;m a software engineer based in the United States. I
+              primarily work with JavaScript / TypeScript and the React
+              ecosystem.
             </p>
             <p className={styles.paragraph}>
               I&apos;m focused on frontend development with React, but
@@ -39,9 +40,9 @@ const AboutPage = () => {
             <h2 className={styles.sectionTitle}>Writing</h2>
             <p className={styles.paragraph}>
               I&apos;ve had the pleasure of writing for some amazing
-              publications like{' '}
-              <span className={styles.highlight}>100ms Blog</span>,{' '}
-              <span className={styles.highlight}>LogRocket Blog</span>,{' '}
+              publications like{" "}
+              <span className={styles.highlight}>100ms Blog</span>,{" "}
+              <span className={styles.highlight}>LogRocket Blog</span>,{" "}
               <span className={styles.highlight}>DEV.to</span> and more as a
               freelance technical author.
             </p>
@@ -62,7 +63,7 @@ const AboutPage = () => {
 
 export async function getStaticProps() {
   return {
-    props: { title: 'About' },
+    props: { title: "About" },
   };
 }
 
