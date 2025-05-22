@@ -10,49 +10,50 @@ const AboutPage = () => {
         <div className={styles.aboutContent}>
           <section className={styles.section}>
             <p className={styles.paragraph}>
-              Hey! I&apos;m a software engineer based in the United States. I
-              primarily work with JavaScript / TypeScript and the React
-              ecosystem.
+              Hey! I&apos;m a software engineer with extensive experience in building modern web applications
+              and e-commerce platforms. I specialize in creating robust, scalable solutions using a diverse
+              tech stack including React, Ruby on Rails, and Three.js.
             </p>
             <p className={styles.paragraph}>
-              I&apos;m focused on frontend development with React, but
-              you&apos;ll also find me working with Node.js, MongoDB and Express
-              while building the backend for my personal projects.
+              My expertise spans from developing enterprise-level applications to creating immersive
+              e-commerce experiences with 3D visualization capabilities.
             </p>
           </section>
 
           <section className={styles.section}>
             <h2 className={styles.sectionTitle}>Experience</h2>
             <p className={styles.paragraph}>
-              Currently at <span className={styles.highlight}>Tessact</span> as
-              Software Engineer 2, working with a lean team of 4 frontend
-              engineers to build a next-gen video creation suite for the people
-              of video.
+              At <span className={styles.highlight}>Allbirds</span> and{" "}
+              <span className={styles.highlight}>Agzaga</span>, I&apos;ve developed sophisticated e-commerce
+              platforms, implementing modern web technologies and sustainable development practices. 
+              My work with <span className={styles.highlight}>Viva La Labia</span> showcases my expertise
+              in creating immersive shopping experiences using Three.js for 3D product visualization.
             </p>
             <p className={styles.paragraph}>
-              I&apos;ve been leading the development efforts for bringing
-              collaborative video reviewing and editing to the platform. I also
-              maintain our in-house component library, icon library and website.
-            </p>
-          </section>
-
-          <section className={styles.section}>
-            <h2 className={styles.sectionTitle}>Writing</h2>
-            <p className={styles.paragraph}>
-              I&apos;ve had the pleasure of writing for some amazing
-              publications like{" "}
-              <span className={styles.highlight}>100ms Blog</span>,{" "}
-              <span className={styles.highlight}>LogRocket Blog</span>,{" "}
-              <span className={styles.highlight}>DEV.to</span> and more as a
-              freelance technical author.
+              I&apos;ve also contributed to enterprise solutions like{" "}
+              <span className={styles.highlight}>Kallidus</span>, developing comprehensive HRM systems,
+              and worked on innovative projects like <span className={styles.highlight}>Create.xyz</span>,
+              an AI-powered platform for web application development.
             </p>
           </section>
 
           <section className={styles.section}>
-            <h2 className={styles.sectionTitle}>Beyond Code</h2>
+            <h2 className={styles.sectionTitle}>Technical Expertise</h2>
             <p className={styles.paragraph}>
-              Aside from programming and writing, I like to read a good
-              dystopian novel, listen to calm piano music or just laze around.
+              My technical stack includes React, Next.js, Node.js, Ruby on Rails, and Three.js.
+              I specialize in building full-stack applications using modern JavaScript frameworks
+              and have extensive experience with e-commerce solutions like Solidus. I&apos;ve also
+              implemented AI-driven solutions and real-time applications using Node.js backends.
+            </p>
+          </section>
+
+          <section className={styles.section}>
+            <h2 className={styles.sectionTitle}>Professional Focus</h2>
+            <p className={styles.paragraph}>
+              I&apos;m passionate about creating user-centric applications that combine beautiful
+              design with robust functionality. My work spans from enterprise-level systems to
+              cutting-edge e-commerce platforms, always focusing on delivering exceptional user
+              experiences.
             </p>
           </section>
         </div>
